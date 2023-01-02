@@ -1,0 +1,22 @@
+#mySelect{
+    padding: 20px;
+    border: 2px solid black;
+    margin-left: 50px;
+    position: relative;
+    left: 40px;
+}
+#para{
+    margin-left: 50px;
+}
+option{
+    margin-left: 50px;
+}
+span{
+    padding: 20px;
+    word-spacing: 50px;
+    display: inline-block;
+    justify-content: space-evenly;
+}
+select{
+    margin-left: 20px;
+}

@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Details</title>
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="menu.html">View Menu</a>
+        <a href="customer.html">Customer Registration</a>
+        <a href="order.html">Place an Order</a>
+    </div>
+    
+    <!-- Write drop down list code here  -->
+    <p id="para">Select A Menu Category from the List </p>
+
+<select id="mySelect" onchange="myFunction()">
+  <option  value="Please Select"></option>
+  <option value= "Dough Balls Doppio <span>5.95</span> <br>Mix Salad Bowl<span>4.00</span><br>Garlic Bread Mozzarella<span>3.12</span><br>Veg Wrap<span>9.50</span><br>Spinach and Artichoke Tortilla Crisp<span>5.24</span><br> Mini vegetable Lasagna <span>1.53</span><br>Potato wedges<span>2.10</span><br>Emilgrana & Mushroom Dip <span>4.35</span>" ></style>Starters</option>
+  <option value="Fruit Pizza <span>5.00</span><br> Combo of 2 veg pizzas <span>5.04</span><br>Risotto corn fungi veg <span>6.58</span><br>Penne con Peppadew <span>9.00</span><br>Dan Dan Noodles <span>3.99</span><br>Mexican Delight Pizzas <span>4.20</span><br> Spaghetti Aglio e Olio <span>9.00</span><br>Pomodoro Pesto Pizza By the Slice <span>15.00</span><br>Cheese Burst Pizza <span>12.00</span><br>Fresh Veggi Special Pizza <span>4.00</span>">Main Course</option>
+  <option value="Chocolate Cheesecake <span>7.95</span><br>Brownie <span>4.52</span>">Desserts</option>
+  <option value="Berry Blast <span>1.72</span><br>Oreo Monster Shake <span>5.00</span><br>Classic Mojito <span>3.78</span><br>Water Melon Ice Tea <span>2.50</span><br>Diet Pepsi <span>5.00</span>">Beverages</option>
+</select>
+
+<p id="para">When you select Menu u will get a menu of that Category</p>
+
+<p id="demo"></p>
+<p id="category"></p>
+<p id="fetchData()"></p>
+
+<!-- <select name="category" id="category" onclick="fetchData()">
+    <option >--SELECT--</option>
+    
+        <option value="volvo">All</option>
+        <option value="Starters">Starters</option>
+        <option value="Main Course">Maincourse</option>
+        <option value="Desserts">Desserts</option>
+        <option  value="Beverages">Beverages</option>
+    </select>
+
+
+<div id="display">
+
+</div> -->
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
+</body>
+</html>

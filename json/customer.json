@@ -1,0 +1,20 @@
+{
+  "customers": [
+    {
+      "customer_id": 12,
+      "email": "kkk@gmail.com",
+      "address": "dfdfdfd",
+      "id": 1
+    },
+    {
+      "custID": "122",
+      "name": "Naveen Kumar",
+      "custPasword": "1234",
+      "custConfirmPassword": "1234",
+      "email": "naveenkumar59835@gmail.com",
+      "contact": "8825486612",
+      "address": "No 24 general swamy street Triplicane",
+      "id": 2
+    }
+  ]
+}
